@@ -56,7 +56,7 @@ if (ua.includes("Locket")) {
             feature_set: [
                 {
                     title: "GOLD✨",
-                    body: "ĐÃ MỞ KHÓA TÍNH NĂNG GOLD TRÊN THIẾT BỊ CỦA BẠN💛",
+                    body: "NGUYỄN HẢI LONG ĐÃ MỞ KHÓA TÍNH NĂNG GOLD TRÊN THIẾT BỊ CỦA BẠN💛",
                     imageURL: "https://cdn.upanhlaylink.com/i/GSfYXmKd.png"
                 }
             ],
@@ -265,7 +265,7 @@ if (ua.includes("Locket")) {
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
             uid: "midautumn_2026",
-            // url: "https://cdn.upanhlaylink.com/i/WoYymbaD.jpeg",
+            // url: "https://cdn.upanhlaylink.com/i/cdWXrhzP.jpg",
             use_local_time_zone: true,
             placement: "below",
             start_at: "2020-01-01T00:00:00",
