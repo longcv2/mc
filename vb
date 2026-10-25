@@ -57,7 +57,7 @@ if (ua.includes("Locket")) {
                 {
                     title: "GOLD✨",
                     body: "NGUYỄN HẢI LONG ĐÃ MỞ KHÓA TÍNH NĂNG GOLD TRÊN THIẾT BỊ CỦA BẠN💛",
-                    imageURL: "https://cdn.upanhlaylink.com/i/GSfYXmKd.png"
+                    imageURL: "https://hosting.photobucket.com/884f09fa-d52e-40c7-b848-0dc5b19d4288/0cb2a814-22fe-4037-9a0a-25c0fe2476f5.png"
                 }
             ],
             primary_button_title: "Xong rồi nhé!",
