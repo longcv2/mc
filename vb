@@ -57,7 +57,7 @@ if (ua.includes("Locket")) {
                 {
                     title: "GOLD✨",
                     body: "NGUYỄN HẢI LONG ĐÃ MỞ KHÓA TÍNH NĂNG GOLD TRÊN THIẾT BỊ CỦA BẠN💛",
-                    imageURL: "https://hosting.photobucket.com/884f09fa-d52e-40c7-b848-0dc5b19d4288/0cb2a814-22fe-4037-9a0a-25c0fe2476f5.png"
+                    imageURL: "https://i.ibb.co/k2gRjqLv/68-AA9-B12-2339-4-CBF-BA6-A-A397-EC633-FF3.png"
                 }
             ],
             primary_button_title: "Xong rồi nhé!",
@@ -255,7 +255,7 @@ if (ua.includes("Locket")) {
     // ============================================================
     // 6. WIDGET, THÔNG BÁO & GIAO DIỆN (JOURNAL / PROFILE)
     // ============================================================
-    Object.assign(obj.entries, {
+        Object.assign(obj.entries, {
         widget_frame_event_max_images: "5",
         android_widget_frame_event_enabled: "true",
         widget_badge_enabled: "true",
@@ -265,8 +265,7 @@ if (ua.includes("Locket")) {
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
             uid: "midautumn_2026",
-           uid: "midautumn_2026",
-            url: "https://hosting.photobucket.com/884f09fa-d52e-40c7-b848-0dc5b19d4288/0cb2a814-22fe-4037-9a0a-25c0fe2476f5.png",
+            url: "https://i.ibb.co/ccX5dRrf/IMG-3726.png",
             use_local_time_zone: true,
             placement: "below",
             start_at: "2020-01-01T00:00:00",
@@ -284,23 +283,22 @@ if (ua.includes("Locket")) {
         journal_activity_bar_enabled: "true",
         journal_settings: JSON.stringify({
             debug_menu_enabled: false,
-            focus_animation: false,
+            focus_animation: true,
             compact_header: true,
-            friends_button: false,
+            friends_button: true,
             reverse_scroll_direction: false,
             streak_visualization: true,
             streak_visualization_style: "gradient",
             streak_header_minimum_count: 0,
             streak_visualization_minimum_count: 2,
-            overlay_indicators: { location: false, music: true, static_content: true, weather: true }
+            overlay_indicators: { location: true, music: true, static_content: true, weather: true }
         }),
         qr_code_config: JSON.stringify({ profile_enabled: true, scanning_enabled: true }),
         custom_profile_pics: "true",
         profile_menu_v2_enabled: "true"
     });
-
+    
     // ============================================================
-    // 7. HỆ THỐNG, CACHE & STORAGE CDN
     // ============================================================
     Object.assign(obj.entries, {
         cdn_domain_replacements: JSON.stringify({ "firebasestorage.googleapis.com": "cdn.locketcamera.com" }),
